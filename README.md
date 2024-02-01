@@ -1,27 +1,31 @@
-# Software Catalog
+# Workflow Registry
 
-This is a repository to store the description of the software to be used in computational HPC workflows using the eFlows4HPC methodology. 
+This is a repository to store the Workflow descriptions using the eFlows4HPC methodology. This description consist of at least the TOSCA description of the worklfow, the code of the their different steps and their required software per step.
+
 
 ## Repository structure
 
-Software descriptions have to be included inside this repository according to the following structure
+Workflow descriptions have to be included inside this repository according to the following structure.
 
 ```
-software-catalog
-  |- packages
-  |    |- software_1
-  |    |    |- package.py		Installation description following the Spack package format
-  |    |    |- invocation.json          Description of the software invocation
+workflow-registry
+  |- workflow_1
+  |    |- tosca
+  |    |    |- types.yml               TOSCA description of the different components involved in the workflow
+  |    |       ... 
+  |    |- step_1
+  |    |    |- spack.yml               Sofware requirements for this workflow step as a Spack environment specification 
+  |    |    |- src                     PyCOMPSs code of the workflow step
   |    |       ...
-  |    |- software_2    
-  |          ....
-  |- cfg				Spack configuration used by the Image Creation Service	
-  |    
-  |- repo.yaml				Spack description of for this repository  
+  |    |- step_2
+  |         ....
+  |- workflow_2                                
+  |	...
 
-```  
+```
 
-## Including new software
+## Including new Workflows
 
-To include new  software in the repository, create a fork of the repository including the description of the new software including at least the spack package description and invocation description. Then, create a create pull request with the branch of the newly added software. This pull request will be reviewed an added to merge to the repository.
+To include new workflows in the repository, first create a new fork of the repository and  include a new folder for the workflow with a subfolder for the TOSCA description and the different workflow steps. Finally, create a pull request with the new workflow description. This pull request will be reviewed and included in the repository.
+
 
