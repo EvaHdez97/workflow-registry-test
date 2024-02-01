@@ -10,9 +10,6 @@ Workflow descriptions have to be included inside this repository according to th
 ```
 workflow-registry
   |- workflow_1
-  |    |- tosca
-  |    |    |- types.yml               TOSCA description of the different components involved in the workflow
-  |    |       ... 
   |    |- step_1
   |    |    |- spack.yml               Sofware requirements for this workflow step as a Spack environment specification 
   |    |    |- src                     PyCOMPSs code of the workflow step
