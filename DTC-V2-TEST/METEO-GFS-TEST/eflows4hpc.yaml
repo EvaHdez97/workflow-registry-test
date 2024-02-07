@@ -1,3 +1,5 @@
+pip:
+        - xarray 
 # This is a Spack Environment file.
 #
 # It describes a set of packages to be installed, along with
@@ -9,7 +11,6 @@ spack:
   - py-ecmwflibs
   - py-netcdf4
   - py-requests
-  - py-xarray
   - py-cfgrib
   - eccodes
   - py-dtcv2-util
