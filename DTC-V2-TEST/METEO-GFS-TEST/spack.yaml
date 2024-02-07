@@ -9,7 +9,6 @@ spack:
   - py-ecmwflibs
   - py-netcdf4
   - py-requests
-  - py-xarray
   - py-cfgrib
   - eccodes
   - py-dtcv2-util
