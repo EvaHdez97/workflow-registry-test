@@ -1,5 +1,3 @@
-pip:
-        - xarray 
 # This is a Spack Environment file.
 #
 # It describes a set of packages to be installed, along with
@@ -13,5 +11,7 @@ spack:
   - py-requests
   - py-cfgrib
   - eccodes
+  - py-xarray
+  - py-dtcv2-util
  
 
