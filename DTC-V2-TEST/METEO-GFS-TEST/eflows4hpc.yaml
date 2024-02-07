@@ -2,6 +2,10 @@
 #
 # It describes a set of packages to be installed, along with
 # configuration settings.
+#apt:
+#  - python3 
+pip:
+  - xarray
 spack:
   # add package specs to the `specs` list
   specs:
@@ -11,7 +15,6 @@ spack:
   - py-requests
   - py-cfgrib
   - eccodes
-  - py-xarray
   - py-dtcv2-util
  
 
