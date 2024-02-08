@@ -19,6 +19,7 @@ spack:
   specs:
   - python
   #- py-ecmwflibs
+  - py-xarray
   - py-netcdf4
   - py-requests
   - py-cfgrib
