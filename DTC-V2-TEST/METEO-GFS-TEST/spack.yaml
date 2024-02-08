@@ -4,6 +4,7 @@
 # configuration settings.
 apt:
   - python3 
+  - python3-pip
 pip:
   - xarray
   - ecmwflibs
