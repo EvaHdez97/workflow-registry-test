@@ -7,22 +7,22 @@
   #- python3-pip
   #- python
   #- python-pip
-pip:
-  - xarray
-  - ecmwflibs
-  - netcdf4
-  - requests
-  - cfgrib
-  - eccodes
+#pip:
+#  - xarray
+#  - ecmwflibs
+#  - netcdf4
+#  - requests
+#  - cfgrib
+#  - eccodes
 spack:
   # add package specs to the `specs` list
   specs:
-#  - python
-#  - py-ecmwflibs
-#  - py-netcdf4
-#  - py-requests
-#  - py-cfgrib
-#  - eccodes
+  - python
+  - py-ecmwflibs
+  - py-netcdf4
+  - py-requests
+  - py-cfgrib
+  - eccodes
   - py-dtcv2-util
  
 
