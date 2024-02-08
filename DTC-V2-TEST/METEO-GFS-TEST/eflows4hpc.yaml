@@ -3,10 +3,10 @@
 # It describes a set of packages to be installed, along with
 # configuration settings.
 apt:
-  #- python3
-  #- python3-pip
-  - python
-  - python-pip
+  - python3
+  - python3-pip
+  #- python
+  #- python-pip
 pip:
   - xarray
   - ecmwflibs
