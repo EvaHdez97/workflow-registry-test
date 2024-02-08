@@ -2,19 +2,24 @@
 #
 # It describes a set of packages to be installed, along with
 # configuration settings.
-#apt:
-#  - python3 
+apt:
+  - python3 
 pip:
   - xarray
+  - ecmwflibs
+  - netcdf4
+  - requests
+  - cfgrib
+  - eccodes
 spack:
   # add package specs to the `specs` list
   specs:
-  - python
-  - py-ecmwflibs
-  - py-netcdf4
-  - py-requests
-  - py-cfgrib
-  - eccodes
-  - py-dtcv2-util
+#  - python
+#  - py-ecmwflibs
+#  - py-netcdf4
+#  - py-requests
+#  - py-cfgrib
+#  - eccodes
+#  - py-dtcv2-util
  
 
