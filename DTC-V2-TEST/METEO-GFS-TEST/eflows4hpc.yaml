@@ -7,9 +7,9 @@
   #- python3-pip
   #- python
   #- python-pip
-pip:
+#pip:
 #  - xarray
-  - ecmwflibs
+#  - ecmwflibs
 #  - netcdf4
 #  - requests
 #  - cfgrib
@@ -17,8 +17,8 @@ pip:
 spack:
   # add package specs to the `specs` list
   specs:
-  - python
-  #- py-ecmwflibs
+  #- python
+  - py-ecmwflibs
   - py-xarray
   - py-netcdf4
   - py-requests
