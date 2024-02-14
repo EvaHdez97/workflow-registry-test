@@ -8,12 +8,13 @@
   #- python
   #- python-pip
 pip:
-#  - xarray
+  - xarray
   - ecmwflibs
-#  - netcdf4
+  - netcdf4
   - requests
   - cfgrib
   - eccodes
+  - datetime
 spack:
   # add package specs to the `specs` list
   specs:
