@@ -14,8 +14,8 @@ pip:
   - eccodes
   - datetime
   - dtcv2-util
-#spack:
+spack:
   # add package specs to the `specs` list
-  #specs:
+  specs:
  
 
