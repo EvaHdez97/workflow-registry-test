@@ -13,7 +13,7 @@ pip:
   - cfgrib
   - eccodes
   - datetime
-  - py-dtcv2-util
+  - dtcv2-util
 #spack:
   # add package specs to the `specs` list
   #specs:
