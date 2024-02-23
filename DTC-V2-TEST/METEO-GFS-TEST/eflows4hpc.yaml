@@ -16,6 +16,6 @@ pip:
   - dtcv2-util
 spack:
   # add package specs to the `specs` list
-  specs:
+  #specs:
  
 
